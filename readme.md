@@ -8,7 +8,7 @@
 - so i used ESP8266 with micropython and used each digital pin to control the directional inputs
 - since in my case there was no speed contorl  in orignnal hardware things were easier. 
 - You can see the image to get better idea.
-![alt text](<Screenshot from 2024-06-05 19-02-38.png>)
+![alt text](<image/circuit.png>)
 
 
 # What next ?
@@ -19,7 +19,12 @@
 - or if anyone want to  modify hardware they can use something similar to dual mosfet configuration to control the speed(motor) but as i said i don't want to modify the original car's hardware.
 
 
+# Notations
+- The board.py file will be flashed to micrpython device(esp8266 in our case) 
+and the server.py file can be used to connect to the board.
+- Please edit the ip address according to your network
+
 # Tasks
-[] create a speed contorl script
-[] control the car using a sensor like HCSR04, 
-[] create neural network to control the car,, (yeah i guess i will do it but cheap camera like esp32 cam are not good and unreliable, lets see what can we use.)
+[ ] create a speed contorl script
+[ ] control the car using a sensor like HCSR04, 
+[ ] create neural network to control the car,, (yeah i guess i will do it but cheap camera like esp32 cam are not good and unreliable, lets see what can we use.)
