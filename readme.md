@@ -25,6 +25,6 @@ and the server.py file can be used to connect to the board.
 - Please edit the ip address according to your network
 
 # Tasks
-[ ] create a speed contorl script
-[ ] control the car using a sensor like HCSR04, 
-[ ] create neural network to control the car,, (yeah i guess i will do it but cheap camera like esp32 cam are not good and unreliable, lets see what can we use.)
+- [ ] create a speed contorl script
+- [ ] control the car using a sensor like HCSR04, 
+- [ ] create neural network to control the car,, (yeah i guess i will do it but cheap camera like esp32 cam are not good and unreliable, lets see what can we use.)
