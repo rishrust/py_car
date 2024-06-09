@@ -19,10 +19,18 @@
 - or if anyone want to  modify hardware they can use something similar to dual mosfet configuration to control the speed(motor) but as i said i don't want to modify the original car's hardware.
 
 
-# Notations
+# How To use?
 - The board.py file will be flashed to micrpython device(esp8266 in our case) 
 and the server.py file can be used to connect to the board.
 - Please edit the ip address according to your network
+
+
+
+# Versions
+- v1, this is a basic contorl which implements some sort of speed contorl, the speed can be changed by changing sleep duration.
+- v2, this is a simple script to mimic the actual control
+
+
 
 # Tasks
 - [ ] create a speed contorl script

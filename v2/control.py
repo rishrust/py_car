@@ -2,7 +2,7 @@ from pynput import keyboard
 import socket
 
 # Define the IP address and port of the NodeMCU
-NODEMCU_IP = '192.168.0.141'  # Replace with your NodeMCU's IP address
+NODEMCU_IP = '192.168.0.102'  # Replace with your NodeMCU's IP address
 NODEMCU_PORT = 12345
 
 # Define the mapping of keys to LED indices
